@@ -17,7 +17,6 @@ export const Github = () => {
           blockMargin={5}
           theme={themeName}
           fontSize={16}
-          hideColorLegend
           showWeekdayLabels
         />
       </div>

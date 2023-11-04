@@ -2,7 +2,7 @@ import React from "react";
 import "./Contact.css";
 import { VscGithub } from "react-icons/vsc";
 import { CgMail } from "react-icons/cg";
-import { BsInstagram, BsFillTelephoneFill } from "react-icons/bs";
+import { BsFillTelephoneFill } from "react-icons/bs";
 import { useThemes } from "../../Context/Theme";
 
 import { FaLinkedin } from "react-icons/fa";
@@ -21,7 +21,7 @@ export const Contact = () => {
             data-aos="fade-right"
           >
             <a
-              href="https://www.linkedin.com/in/shreyas-g-khakal/"
+              href="https://www.linkedin.com/in/mkbanawis/"
               target="_blank"
               rel="noreferrer"
             >
@@ -41,27 +41,9 @@ export const Contact = () => {
             >
               <CgMail className="email" />
             </a>
-            <a href="tel:+918668613593" target="_blank" rel="noreferrer">
+            <a href="tel:+639307386517" target="_blank" rel="noreferrer">
               <BsFillTelephoneFill className="phone" />
             </a>
-          </div>
-          <div className="mailNumber" data-aos="fade-right">
-            <div>
-              <span>
-                <CgMail className="email" />
-              </span>
-              <span>
-                <p>dev.mkbanawis@gmail.com</p>
-              </span>
-            </div>
-            <div className="iconsCont">
-              <span>
-                <BsFillTelephoneFill className="phone" />
-              </span>
-              <span>
-                <p>+63 9307386517</p>
-              </span>
-            </div>
           </div>
         </div>
       </div>

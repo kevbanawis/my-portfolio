@@ -144,6 +144,41 @@ export const Timeline = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
+            date={"April 2018"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<SchoolIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Student
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              University of the East (Caloocan)
+            </h4>
+            <label data-aos="fade-right">
+              SY 2013 ~ 2018
+            </label>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
             date={"December 2017 - March 2018"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
@@ -178,41 +213,6 @@ export const Timeline = () => {
               Developed & maintain <span className="about__tech">Online Warranty System</span> to migrate numerous hard copies into SQL data.
               This helped the data team to track warranty records of their clients.
             </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date={"April 2018"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
-            }}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<SchoolIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Student
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              University of the East (Caloocan)
-            </h4>
-            <label data-aos="fade-right">
-              SY 2013 ~ 2018
-            </label>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             icon={<StarRateIcon />}

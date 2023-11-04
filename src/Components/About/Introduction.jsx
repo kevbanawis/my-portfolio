@@ -20,49 +20,33 @@ export const Introduction = () => {
               <img src={profilePic} alt="Images" />
             </div>
             <div className="introduction_datacontainer">
-              <h4>
-                Hello, my name is {" "}
-                <span className="different">Mark Kevin Banawis </span> and I am from{" "}
-                <span className="different">
-                  {" "}
-                  Meycauayan, Bulacan (Philippines).
-                </span>
-                <br/>I have completed my graduation in Bachelor of Science in Information Technology (BSIT)
-                from{" "} way back <span className="different">April 2018</span>.
-                <br/><br/> Then, I started my full time career as a Software Engineer way back{" "}
-                <span className="different">2019</span> on an <span className="different">Outsourcing Software Company</span> in Pasig, Metro Manila way back 2020.
-              </h4>
-              <h4>Hobbies beside coding:</h4>
-              <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
-                Building gaming PCs and troubleshooting them
-              </h4>
-              <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
-                A bit of Guitar Enthusiast
-              </h4>
-              <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
-                Being on a band! JAM!
-              </h4>
-              <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
-                Loves listening to Rock, Blues, J-Rock, Alternative music
-              </h4>
-              <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
-                Watching Anime
-              </h4>
+              <p>
+                Hey there! I'm <span className="different">Mark Kevin Banawis</span>, a <span className="different">Software Engineer</span> by day.
+                Constantly caffeinated and endlessly curious.
+                I thrive on the thrill of solving tech puzzles and ironing out glitches like a digital superhero.
+                Passionate about building elegant solutions and creating user-friendly experiences, 
+                I wield the power of <span className="about__tech">Python</span> and <span className="about__tech">React</span> to zap up Web Applications!
+
+                I'm addicted to learning and forever expanding my tech-savvy horizons. 🚀
+              </p>
+              <h4>When I'm not taming lines of code, you'll find me indulging following interests:</h4>
+              <ul>
+                <li className="different">
+                  Building gaming PCs and troubleshooting them
+                </li>
+                <li className="different">
+                  A bit of Guitar Enthusiast
+                </li>
+                <li className="different">
+                  Being on a band! JAM!
+                </li>
+                <li className="different">
+                  Loves listening to Rock, Blues, J-Rock, Alternative music
+                </li>
+                <li className="different">
+                  Watching Anime
+                </li>
+              </ul>
               
             </div>
           </div>

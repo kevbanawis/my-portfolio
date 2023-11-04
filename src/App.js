@@ -4,6 +4,7 @@ import { Github } from "./Components/About/Github";
 import { Header } from "./Components/Header/Header";
 import { Footer } from "./Components/Footer/Footer";
 import { Contact } from "./Components/Contact/Contact";
+import { Projects } from "./Components/Projects/Projects";
 import { About } from "./Components/About/About";
 import { ScrollToTop } from "./Components/ScrollToTop/ScrollToTop";
 import { useThemes } from "./Context/Theme";
@@ -25,6 +26,7 @@ export default function App() {
       <main>
         <About />
         <Github />
+        <section id="#projects">{/* <Projects /> coming soon! */}</section>
         <section id="#contact">
           <Contact />
         </section>

@@ -4,7 +4,7 @@ import { Type } from "./Type";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
-import PhoneIcon from "@material-ui/icons/Phone";
+import Smartphone from "@material-ui/icons/Smartphone";
 import { Introduction } from "./Introduction";
 import { Timeline } from "./Timeline";
 import { Techstacks } from "./Techstacks";
@@ -13,13 +13,13 @@ export const About = () => {
     <>
       <div className="about center">
         <h1 data-aos="fade-right" className="mobileHead" id="big-heading">
-          Greetings, I'm <span className="about__name">Kevin</span>!
+          <span className="about__name">Mark Kevin Banawis</span>
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          A problem solver that can work as a Team Player or an individual with years of Software Development experience. 
-          Crafting innovative solutions mainly with <span className="about__tech">Python</span> & <span className="about__tech">React</span> to power web applications. 
-          <br/>I am passionate about creating efficient and seamless user experiences.
+          A Team Player and an individual with burning passion for problem-solving and a constant thirst for knowledge. 
+          My curiosity has led me to explore diverse domains within the field of software development, 
+          reinforcing my commitment to personal and professional growth.
         </p>
         <div className="about__contact center">
           <a
@@ -47,7 +47,7 @@ export const About = () => {
             aria-label="phone"
             className="link link--icon"
           >
-            <PhoneIcon />
+            <Smartphone />
           </a>
           <a
             href="https://www.linkedin.com/in/mkbanawis/"
