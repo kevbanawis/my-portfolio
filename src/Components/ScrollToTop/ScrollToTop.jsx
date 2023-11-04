@@ -13,9 +13,14 @@ export const ScrollToTop = () => {
     return () => window.removeEventListener("scroll", toggleVisibility);
   }, []);
 
+  const handleScrollTop = () => {
+    const topElement = document.getElementById("#top") || document.body;
+    topElement.scrollIntoView({ behavior: "smooth" });
+  };
+
   return isVisible ? (
     <div className="scroll-top">
-      <a href="#top">
+      <a onClick={handleScrollTop}>
         <ArrowUpwardIcon fontSize="large" />
       </a>
     </div>
