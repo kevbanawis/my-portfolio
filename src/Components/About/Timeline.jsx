@@ -10,7 +10,6 @@ import WorkIcon from "@material-ui/icons/Work";
 import SchoolIcon from "@material-ui/icons/School";
 import StarRateIcon from "@material-ui/icons/StarRate";
 import { useThemes } from "../../Context/Theme";
-import { Work } from "@material-ui/icons";
 
 export const Timeline = () => {
   const themeName = useThemes();
@@ -63,8 +62,10 @@ export const Timeline = () => {
               Reed Elsevier Philippines
             </h4>
             <p data-aos="fade-right">
-              Joined Lex Machina family that aims to deliver <span className="different">Legal-Analytics</span> to their clients.
-              I help continouosly improve their Web Applications such as Citadel and their Product in aligned working with other fellow Engineers.
+              I found my utopia with Lex Machina!
+              Joining forces with an incredible team, we strive to bring the power of Legal-Analytics to our clients. 
+              I play my part in enhancing our stellar Web Applications like Citadel and their Product, 
+              all while jamming with my fellow tech wizards.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -99,9 +100,9 @@ export const Timeline = () => {
               Indra Philippines Inc.
             </h4>
             <p data-aos="fade-right">
-              Assigned on 5 on different projects. 3 of them are concurrently assigned to me. 
-              Promoted to <span className="different">Software Engineer II</span> with success delivering numerous bug fixes, {" "}
-              features & enhancements stabilizing projects up to 60-70% on annual summary.
+              Assigned on 5 exciting projects, juggling 3 of the projects assigned simultaneously.
+              As a Software Engineer II, I've mastered the art of delivering countless bug fixes, mind-blowing features, and game-changing enhancements. 
+              Even stabilizing projects up to a jaw-dropping 60-70% on annual summaries.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -136,10 +137,15 @@ export const Timeline = () => {
               Trend Micro Inc.
             </h4>
             <p data-aos="fade-right">
-              Started in August 2019 to attend <span className="different">engineering bootcamp</span> with technologies
-              such as <span className="about__tech">Python (Flask)</span>, <span className="about__tech">Linux</span>, 
-              <span className="about__tech">VMWare & Websphere</span>, <span className="about__tech">Networks (Cisco)</span> that lasted only{" "}
-              three (3) months
+              I'm that rare combo of a curious cat and a tech-obsessed human! 
+              Started my engineering adventure in August 2019 with a bang, diving headfirst into an intense bootcamp. 
+              <span className="about__tech">Python (Flask) and SQLAlchemy</span>,{" "}
+              <span className="about__tech">Linux</span>,{" "} 
+              <span className="about__tech">VMWare & Websphere</span>,{" "}
+              and <span className="about__tech">Networks (Cisco)</span> were my daily companions, and boy, did we have some wild times together!
+
+              But hey, life had different plans for me and decided to squeeze the entire bootcamp rollercoaster into just three (3) months! 
+              Fast and furious, right? Though it didn't last long, I walked away with a whole new set of skills and a nifty toolkit.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -209,9 +215,9 @@ export const Timeline = () => {
               Audio Video Solutions Corporation (AVSC)
             </h4>
             <p data-aos="fade-right">
-              My starting point of being a Full-stack Developer using <span className="about__tech">PHP, HTML, CSS, JS, MySQL</span>.{" "}
-              Developed & maintain <span className="about__tech">Online Warranty System</span> to migrate numerous hard copies into SQL data.
-              This helped the data team to track warranty records of their clients.
+            Imagine a world where meticulous warranty management becomes a breeze – that's what 
+            I achieved by developing and maintaining an <span className="different">Online Warranty System</span>. 
+            Say goodbye to mountains of hard copies, and say hello to efficient tracking of client warranty records.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
