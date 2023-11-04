@@ -62,7 +62,7 @@ export const Timeline = () => {
               Reed Elsevier Philippines
             </h4>
             <p data-aos="fade-right">
-              I found my utopia with Lex Machina!
+              I found my utopia in my initial project Lex Machina!
               Joining forces with an incredible team, we strive to bring the power of Legal-Analytics to our clients. 
               I play my part in enhancing our stellar Web Applications like Citadel and their Product, 
               all while jamming with my fellow tech wizards.
@@ -137,14 +137,13 @@ export const Timeline = () => {
               Trend Micro Inc.
             </h4>
             <p data-aos="fade-right">
-              I'm that rare combo of a curious cat and a tech-obsessed human! 
-              Started my engineering adventure in August 2019 with a bang, diving headfirst into an intense bootcamp. 
+              I'm that rare combo of a curious cat and a tech-obsessed human!{" "}
+              Started my engineering adventure in August 2019 with a bang, diving headfirst into an intense bootcamp.{" "}
               <span className="about__tech">Python (Flask) and SQLAlchemy</span>,{" "}
               <span className="about__tech">Linux</span>,{" "} 
               <span className="about__tech">VMWare & Websphere</span>,{" "}
               and <span className="about__tech">Networks (Cisco)</span> were my daily companions, and boy, did we have some wild times together!
-
-              But hey, life had different plans for me and decided to squeeze the entire bootcamp rollercoaster into just three (3) months! 
+              <br/><br/>But hey, life had different plans for me and decided to squeeze the entire bootcamp rollercoaster into just three (3) months! 
               Fast and furious, right? Though it didn't last long, I walked away with a whole new set of skills and a nifty toolkit.
             </p>
           </VerticalTimelineElement>
