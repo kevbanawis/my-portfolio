@@ -42,9 +42,6 @@
   background-color: var(--clr-primary);
   color: var(--clr-bg);
 }
-#big-heading {
-  font-size: 50px;
-}
 
 @media (max-width: 600px) {
   .mobileHead{

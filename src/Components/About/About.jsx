@@ -12,7 +12,7 @@ export const About = () => {
   return (
     <>
       <div className="about center">
-        <h1 data-aos="fade-right" className="mobileHead" id="big-heading">
+        <h1 data-aos="fade-right" className="mobileHead">
           <span className="about__name">Mark Kevin Banawis</span>
         </h1>
         <Type />
